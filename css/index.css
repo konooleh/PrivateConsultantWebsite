@@ -1,0 +1,136 @@
+* {
+	margin:0 auto;
+	padding:0;
+}
+
+body {
+	background:white;
+}
+
+.container {
+    background:#000000;
+	width:90%;
+	max-width:1000px;
+	font-family: 'Lobster', serif;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+
+header {
+	background:#000000;
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+
+header .logo img {
+	width:100px;
+	vertical-align: top;
+}
+
+header .logo a {
+    font-family: 'Lobster Two', cursive;
+	font-size:40px;
+	color:white;
+	text-decoration:none;
+	line-height:70px;
+}
+
+header nav {
+	width:50%;
+	display:flex;
+	flex-wrap:wrap;
+	align-items:center;
+}
+
+header nav a {
+	font-family: 'Russo One', sans-serif;
+	font-size:25px;
+	background:#FFA6ED;
+	color:#fff;
+	text-align: center;
+	text-decoration:none;
+	padding:10px;
+	flex-grow:1;
+	margin:2px;
+}
+
+header nav a:hover {
+	background:#FF4DDB;
+}
+
+article {
+	background:#FCFFCC;
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
+article .main img {
+    width:100%; 
+    height:auto;
+}
+
+article .aboutme p {
+	text-align:center;
+	font-size:25px;
+	padding:40px;
+}
+
+article .clients {
+	text-align:center;
+	background:#E6FFC7;
+	font-size:24px;
+	margin:0;
+	padding:20px;
+	}
+
+article .feedback {
+	text-align:center;
+	background:#C7F8FF;
+	font-size:24px;
+	margin:0;
+	padding:20px;
+}
+
+article .optional {
+	text-align:center;
+	background:#FC9E3F;
+	font-size:24px;
+	margin:0;
+	padding:20px;
+}
+
+ul {
+	list-style-type:disc;
+	font-size:22px;
+}
+
+article .form {
+	background: linear-gradient(#E0ADFF, black);
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+
+form {
+    font-family: 'Russo One', sans-serif;
+}
+
+.footer {
+	background:black;
+	width:100%;
+	color:#FFA6ED;
+	text-align:center;
+}
+
+.footer p:hover {
+	color:cyan;
+}
