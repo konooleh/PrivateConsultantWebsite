@@ -9,7 +9,7 @@ body {
 
 .container {
     background:#FFFFFF;
-	width:90%;
+	width:100%;
 	max-width:1000px;
 	font-family: 'Lobster', serif;
 	display:flex;
@@ -118,6 +118,8 @@ article .form {
 	display:flex;
 	flex-direction:row;
 	flex-wrap:wrap;
+	position:relative;
+    overflow:hidden;
 }
 
 form {
