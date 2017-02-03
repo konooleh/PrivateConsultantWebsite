@@ -1,0 +1,10 @@
+body {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+article {
+  display: block;
+  vertical-align: middle;
+  text-align: center;
+}

@@ -3,6 +3,8 @@
 	padding:0;
 }
 
+#list-style-type:none
+
 body {
 	background:white;
 }
@@ -11,7 +13,7 @@ body {
     background:#FFFFFF;
 	width:100%;
 	max-width:1000px;
-	font-family: 'Lobster', serif;
+	font-family: 'Lobster', serif !important;
 	display:flex;
 	flex-direction:row;
 	flex-wrap:wrap;
@@ -108,12 +110,11 @@ article .optional {
 }
 
 ul {
-	list-style-type:disc;
 	font-size:22px;
 }
 
 article .form {
-	background: linear-gradient(#E0ADFF, black);
+	background: linear-gradient(#E0ADFF, pink);
 	width:100%;
 	display:flex;
 	flex-direction:row;

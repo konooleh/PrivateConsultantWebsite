@@ -1,19 +1,22 @@
 <!doctype html>
 <html lang="en">
+	
 <head>
-	<meta charset="UTF-8">
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
 	<title>Private Consultant</title>
+    <link rel="stylesheet" href="css/reset.css">
 	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet"> 
-	<link rel="stylesheet" href="css/index.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+	<link rel="stylesheet" href="css/index.css" type="text/css">
+	<link rel="stylesheet" media="(max-width: 980px)" href="css/mobile.css">
 </head>
 
 <body>
 	<div class="container">
 		<header>
 			<div class="logo">
-				<img src="img/MyLogo.png" alt="The Consulting Group">
+				<img src="img/my-logo.png" alt="The Consulting Group">
 				<a href="#">Private Consultant</a>
 			</div>
 			<nav>
@@ -22,8 +25,8 @@
 				<a href="#contact">Contact</a>
 			</nav>
 		</header>
-		<article>
-            <iframe width="1000" height="700" frameborder="0" allowfullscreen src="https://player.vimeo.com/video/102004964"></iframe>
+		<iframe width="1000" height="700" frameborder="0" allowfullscreen src="https://player.vimeo.com/video/102004964"></iframe>
+		<article class="main">
 			<div class="aboutme" id="services">
 				<p>
 As a consultant, I help people to reach ambitious results in counseling and consulting private practices. I absolutely love helping counselors and consultants to increase their income and their influence!
@@ -67,7 +70,7 @@ Before we take up time discussing whether you’re ready for consulting, take a 
 						<li>Feature 3</li>
 					</ul>
 				</div>
-					<div class="optional">
+				<div class="optional">
 					<h2>Consulting Articles</h2>
 					<h3>Branding</h3>
 					<ul>
@@ -90,7 +93,7 @@ Before we take up time discussing whether you’re ready for consulting, take a 
 				</div>
 				<iframe width="500" height="300" frameborder="0" allowfullscreen src="https://player.vimeo.com/video/92915097"></iframe>
 				<iframe width="500" height="300" frameborder="0" allowfullscreen src="https://player.vimeo.com/video/97353945"></iframe>
-			<div class="form" id="contact">
+			    <div class="form" id="contact">
 				<form method="POST" action="https://formspree.io/konooleh@gmail.com">
 					<fieldset>
 						<legend>Please, fill-in the form to contact with me</legend>
@@ -98,7 +101,7 @@ Before we take up time discussing whether you’re ready for consulting, take a 
                           <input type="text" name="name" placeholder="Your name" required>
                           <br>
                           <br>
-                          <input type="e-mail" name="e-mail" placeholder="Your e-mail" required>
+                          <input type="email" name="email" placeholder="Your e-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
                           <br>
                           <br>
 				          <textarea name="message" rows="10" cols="50" placeholder="Your message"></textarea>
@@ -112,5 +115,8 @@ Before we take up time discussing whether you’re ready for consulting, take a 
 			<p>KONO Inc.</p>
 		</footer>
 	</div>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/form.js"></script>
+	<script type="text/javascript" src="js/smooth-scroll.js"></script>
 </body>
 </html>
