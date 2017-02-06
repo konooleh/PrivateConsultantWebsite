@@ -52,7 +52,7 @@ header nav {
 header nav a {
 	font-family: 'Russo One', sans-serif;
 	font-size:25px;
-	background:#FFA6ED;
+	background:#00D19D /*#FFA6ED*/;
 	color:#fff;
 	text-align: center;
 	text-decoration:none;
@@ -62,7 +62,7 @@ header nav a {
 }
 
 header nav a:hover {
-	background:#FF4DDB;
+	background:#FAAB00 /*#FF4DDB*/;
 }
 
 article {
@@ -126,6 +126,14 @@ article .form {
 form {
     font-family: 'Russo One', sans-serif;
     text-align: center;
+}
+
+input{
+	border-radius:50px;
+}
+
+textarea{
+	border-radius:15px;
 }
 
 .footer {
